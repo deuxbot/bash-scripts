@@ -5,7 +5,7 @@ Collection of scripts
 Ubuntu 16.04 LTS
 
 ## install_gsl
-Downloads, installs and exports the environment variables of the GNU Scientific Library (GSL) in the given path. Usage: <br/>
+Downloads, installs and exports the environment variables of the GNU Scientific Library (GSL). Usage: <br/>
 ```bash
 sh install_gsl.sh installPath
 ```
