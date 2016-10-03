@@ -10,7 +10,7 @@ Downloads and installs CMake. Usage: <br/>
 sh install_cmake.sh installPath
 ```
 ## install_flann
-Downloads and installs F ast Library for Approximate Nearest Neighbors(FLANN). Usage: <br/>
+Downloads and installs Fast Library for Approximate Nearest Neighbors(FLANN). Usage: <br/>
 ```bash
 sh install_flann.sh installPath
 ```
