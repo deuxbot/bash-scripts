@@ -7,7 +7,7 @@ Ubuntu 16.04 LTS
 ## install_cmake
 Downloads and installs CMake. Usage: <br/>
 ```bash
-sh install_gsl.sh installPath
+sh install_cmake.sh installPath
 ```
 
 ## install_gsl
