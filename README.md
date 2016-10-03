@@ -4,6 +4,12 @@ Collection of scripts
 ## Tested distro:
 Ubuntu 16.04 LTS
 
+## install_cmake
+Downloads and installs CMake. Usage: <br/>
+```bash
+sh install_gsl.sh installPath
+```
+
 ## install_gsl
 Downloads, installs and exports the environment variables of the GNU Scientific Library (GSL). Usage: <br/>
 ```bash
