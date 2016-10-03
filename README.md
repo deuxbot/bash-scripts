@@ -14,7 +14,7 @@ Downloads and installs F ast Library for Approximate Nearest Neighbors(FLANN). U
 ```bash
 sh install_flann.sh installPath
 ```
-To get GSL working with NetBeans: <br/>
+To get FLANN working with NetBeans: <br/>
 > Add library headers: Tools > Options > C/C++ > Code Assistence > C Compiler > Add: installPath/include <br/>
 > Add environment var: Project Properties > Run > Environment > Add: Name: LD_LIBRARY_PATH	Value: installPath/lib <br/>
 > Add include path to makefile's flags: CFLAGS = -I/installPath/include <br/>
