@@ -11,6 +11,5 @@ rm $FILE_NAME.tar.gz
 cd $FILE_NAME
 ./bootstrap --prefix=$DEST_PATH
 make
-make check
 make install
 rm -rf ../$FILE_NAME
