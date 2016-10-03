@@ -9,7 +9,7 @@ wget https://cmake.org/files/v3.6/$FILE_NAME.tar.gz
 tar -xzvf $FILE_NAME.tar.gz 
 rm $FILE_NAME.tar.gz
 cd $FILE_NAME
-./configure --prefix=$DEST_PATH
+./bootstrap --prefix=$DEST_PATH
 make
 make check
 make install
