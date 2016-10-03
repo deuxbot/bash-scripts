@@ -35,3 +35,4 @@ Get the average execution time of a code snippet from various output files of a 
 ```bash
 sh avg_time.sh
 ```
+Execution times are on "times" folder, execute the script inside that folder.
