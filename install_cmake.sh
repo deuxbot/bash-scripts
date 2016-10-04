@@ -12,4 +12,5 @@ cd $FILE_NAME
 ./bootstrap --prefix=$DEST_PATH
 make
 make install
+echo "export PATH=$DEST_PATH/bin:$PATH" >> ~/.bashrc 
 rm -rf ../$FILE_NAME
