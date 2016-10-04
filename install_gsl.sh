@@ -13,6 +13,6 @@ cd $FILE_NAME
 make
 make check
 make install
-echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$DEST_PATH/lib' >> ~/.bashrc 
-echo 'export LIBRARY_PATH=$LIBRARY_PATH:$DEST_PATH/lib' >> ~/.bashrc 
+echo "export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$DEST_PATH/lib" >> ~/.bashrc 
+echo "export LIBRARY_PATH=$LIBRARY_PATH:$DEST_PATH/lib" >> ~/.bashrc 
 rm -rf ../$FILE_NAME
