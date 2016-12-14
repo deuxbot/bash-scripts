@@ -14,6 +14,3 @@ cd $FILE_NAME
 echo "export Boost_INCLUDE_DIR=$DEST_PATH/include:$PATH" >> ~/.bashrc 
 echo "export Boost_LIBRARY_DIRS=$DEST_PATH/lib:$PATH" >> ~/.bashrc 
 rm -rf ../$FILE_NAME
-
-
-
