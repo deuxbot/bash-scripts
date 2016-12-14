@@ -9,7 +9,7 @@ wget http://downloads.sourceforge.net/project/boost/boost/1.62.0/boost_1_62_0.ta
 tar -xzvf $FILE_NAME.tar.gz 
 rm $FILE_NAME.tar.gz
 cd $FILE_NAME
-./bootstrap.sh --prefix=/home/remoto/jorge.martinez.sanchez/dev
+./bootstrap.sh --prefix=$DEST_PATH
 ./b2 install
 echo "export Boost_INCLUDE_DIR=$DEST_PATH/include:$PATH" >> ~/.bashrc 
 echo "export Boost_LIBRARY_DIRS=$DEST_PATH/lib:$PATH" >> ~/.bashrc 
